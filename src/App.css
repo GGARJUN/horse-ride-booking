@@ -1,0 +1,15 @@
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.border-animate {
+  
+  background-image: linear-gradient(120deg, rgba(0, 0, 255, 0.555), rgba(255, 0, 0, 0.458), rgba(0, 128, 0, 0.462), rgba(255, 255, 0, 0.433), rgba(0, 0, 255, 0.5));
+  background-size: 400% 400%;
+  animation: borderMove 5s linear infinite;
+}
