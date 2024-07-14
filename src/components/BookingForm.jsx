@@ -6,7 +6,7 @@ import * as yup from 'yup';
 import { generateCalendarInvite } from '../utils/calendarInvite';
 import { motion } from 'framer-motion';
 
-const horses = ['Lightning', 'Thunder', 'Shadow', 'Blaze'];
+const horses = ["Thoroughbred", "Quarter Horse", "Arabian", "Gaited Horses"];
 const timeSlots = [
   '3:00 PM - 4:00 PM', '4:00 PM - 5:00 PM', '5:00 PM - 6:00 PM',
   '6:00 PM - 7:00 PM', '7:00 PM - 8:00 PM', '8:00 PM - 9:00 PM',
